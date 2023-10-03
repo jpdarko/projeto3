@@ -1,0 +1,80 @@
+/* Estilo Blade Runner */
+
+/* Fundo escuro */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Barra de navegação */
+.navbar {
+    background-color: #222;
+    border-bottom: 1px solid #444;
+}
+
+/* Links da barra de navegação */
+.nav-link {
+    color: #fff;
+}
+
+/* Links da barra de navegação quando hover */
+.nav-link:hover {
+    color: #00ff00;
+}
+
+/* Botão de alternância da barra de navegação */
+.navbar-toggler-icon {
+    background-color: #00ff00;
+}
+
+/* Títulos de seção */
+.section-title {
+    font-family: 'Pacifico', cursive;
+    color: #00ff00;
+    text-transform: uppercase;
+}
+
+/* Botões de ação */
+.btn {
+    background-color: #00ff00;
+    border: none;
+    color: #000;
+}
+
+/* Botões de ação quando hover */
+.btn:hover {
+    background-color: #ff6600;
+    color: #fff;
+}
+
+/* Cards de notícias */
+.card {
+    background-color: #333;
+    border: none;
+    color: #fff;
+}
+
+/* Cards de notícias quando hover */
+.card:hover {
+    background-color: #444;
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Links do rodapé */
+.footer a {
+    color: #00ff00;
+}
+
+/* Links do rodapé quando hover */
+.footer a:hover {
+    color: #ff6600;
+}
